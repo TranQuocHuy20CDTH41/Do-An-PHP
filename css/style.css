@@ -1,0 +1,55 @@
+body {
+    display: flex;
+}
+
+#banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 990px;
+}
+
+h3 #title {
+    margin-top: 50px;
+    text-shadow: 2px 2px #000000;
+    font-size: 60px;
+}
+
+#title:hover {
+    color: yellowgreen;
+    text-shadow: 2px 2px #000000;
+}
+
+div.menu_ngang {
+    background-color: rgb(21, 39, 33);
+    text-align: center;
+}
+
+div.menu_ngang a {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+div.menu_ngang a:hover {
+    color: rgb(255, 255, 255);
+}
+
+div.menu_doc a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    font: bold;
+}
+
+div.menu_doc a:hover {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}

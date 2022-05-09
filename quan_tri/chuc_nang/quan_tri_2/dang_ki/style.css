@@ -1,0 +1,31 @@
+.form {
+    width: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-weight: 700px;
+    background: linear-gradient(to right bottom, rgb(157, 250, 245), rgb(89, 182, 199), rgb(134, 127, 230));
+    color: #080808c0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.form input {
+    width: 100%;
+    height: 40px;
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url(nen_dang_ki.jpg);
+}
+
+button {
+    outline: 1px solid black;
+}
